@@ -1,0 +1,5 @@
+import ystockquote
+
+def data(tsymbol):
+
+    print(ystockquote.get_all(tsymbol))
